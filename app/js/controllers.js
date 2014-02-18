@@ -2,6 +2,7 @@
 
 /* Controllers */
 var phonecatApp = angular.module('phonecatApp', []);
+
  
 phonecatApp.controller('PhoneListCtrl', function ($scope) {
   $scope.phones = [
@@ -12,4 +13,8 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
     {'name': 'MOTOROLA XOOM™',
      'snippet': 'The Next, Next Generation tablet.'}
   ];
+	
+  $scope.name = "World";	
 });
+
+
