@@ -21,5 +21,3 @@ phonecatApp.controller('PhoneListCtrl', function ($scope) {
   $scope.orderProp = 'age';	
 
 });
-
-
